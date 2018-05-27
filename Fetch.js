@@ -28,7 +28,7 @@ function parseJSON(response) {
 }
 
 function updateProfile(data) {
-  fullname.innerText = upperFirst(data.results[0].name.first) + ' ' +                 upperFirst(data.results[0].name.first);
+  fullname.innerText = upperFirst(data.results[0].name.first) + ' ' + upperFirst(data.results[0].name.first);
   avatar.src = data.results[0].picture.medium;
   username.innerText = data.results[0].login.username;
   email.innerText = data.results[0].email;
