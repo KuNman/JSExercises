@@ -24,5 +24,5 @@ function Parent(firstName, lastName, favoriteColor, favoriteFood){
 }
 
 function Child(firstName, lastName, favoriteColor, favoriteFood){
-    Parent.call(this,arguments);
+    Parent.apply(this,arguments);
 }
